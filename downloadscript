@@ -1,0 +1,16 @@
+#!/bin/bash
+
+sudo pacman -S rofi
+sudo pacman -S pulseaudio
+sudo pacman -S tk
+sudo pacman -S i3blocks
+sudo pacman -S kodi
+sudo pacman -S playerctl
+sudo pacman -S caffeine
+sudo pacman -S feh
+sudo pacman -S vim
+mkdir ~/.fonts
+wget "http://fontawesome.io/assets/font-awesome-4.7.0.zip"
+unzip font-awesome-4.7.0.zip
+cp ~/font-awesome-4.7.0/fonts/fontwesome-webfont.ttf ~/.fonts
+
